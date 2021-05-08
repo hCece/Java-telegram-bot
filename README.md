@@ -6,8 +6,8 @@ After downloading create a new project and add this library with the org.json li
 for now it reads/writes telegram messages, with the option of using inlineKeyboard (https://core.telegram.org/bots/2-0-intro#new-inline-keyboards), but in the near future there might be an update :)
 
 
-**avaliable methods:** \n
-By creating an object of TelegramBot you are obliged to enter the API of the bot you want to connect. <p>
+**avaliable methods:**
+- By creating an object of TelegramBot you are obliged to enter the API of the bot you want to connect.
 
 - getMessage():<p>
   - This methods returns the last unread messages from the object. <p><p>
