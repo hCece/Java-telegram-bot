@@ -20,10 +20,7 @@ sendMessage(String idTelegram, String message, boolean setItalicBold):
 
 SendInlineKeyboard(String idTelegram,HashMap<String,String> data, String text):
         This method uses the inlineKeyboard feature from telegram's API to send buttons to the user.
-	  idTelegram: the unique ID connected with the telegram user.
-	  data: content in keys will be displayed as button, content in values will be the response from the user pressing a button
-	  text: the initial message to the user
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+	 - idTelegram: the unique ID connected with the telegram user.
+	 - data: content in keys will be displayed as button, content in values will be the response from the user pressing a button
+	 - text: the initial message to the user
+
