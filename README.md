@@ -13,9 +13,9 @@ getMessage():
         This methods returns the last unread messages from the object. 
         
 sendMessage(String idTelegram, String message, boolean setItalicBold):
-	 idTelegram: the unique ID connected with the telegram user.
+	* idTelegram: the unique ID connected with the telegram user.
 	 message: the text that is being sent to the user.
-	 setItalicBold: enable italic (Syntax: _ITALIC_) and bold (Syntax: \*BOLD\*)
+	 setItalicBold: enable italic (Syntax: \_ITALIC\_) and bold (Syntax: \*BOLD\*)
   
 
 SendInlineKeyboard(String idTelegram,HashMap<String,String> data, String text):
