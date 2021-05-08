@@ -6,9 +6,7 @@ public class DummyBot{
 			data = telegramBot.getMessage();
 			if(data != null)
 				telegramBot.sendMessage(data[0], data[1], false);
-			else
-				Thread.sleep(500);
-		}
-			
+			else Thread.sleep(500);
+		}	
 	}
 }
