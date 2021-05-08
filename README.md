@@ -15,7 +15,7 @@ getMessage():
 sendMessage(String idTelegram, String message, boolean setItalicBold):
 	 idTelegram: the unique ID connected with the telegram user.
 	 message: the text that is being sent to the user.
-	 setItalicBold: enable italic (Syntax: _ITALIC_) and bold (Syntax: *BOLD*)
+	 setItalicBold: enable italic (Syntax: _ITALIC_) and bold (Syntax: \*BOLD\*)
   
 
 SendInlineKeyboard(String idTelegram,HashMap<String,String> data, String text):
